@@ -38,7 +38,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: anithagowda/nodeDocker:latest
+          tags: anithagowda/nodedocker:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
